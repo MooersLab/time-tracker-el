@@ -22,7 +22,7 @@ The Emacs package `time-tracker.el` enables loading information about an event i
 
 ## Status: very alpha
 
-## Planned
+## Installation
 
 ```elisp
 (let ((file-path (expand-file-name "~/e30fewpackages/manual-install/time-tracker.el")))
