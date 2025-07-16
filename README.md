@@ -4,21 +4,21 @@
 
 # Load events into time tracking database from inside Emacs
 
-*Prolem address:* Org-mode in Emacs provides a time-logging feature underneath headlines for specific projects. 
-The aggregating of this information across multiple projects is unwieldly when the number of projects exceeds a half dozen.
+**Problem address:** Org-mode in Emacs provides a time-logging feature underneath headlines for specific projects. 
+The aggregating of this information across multiple projects is unwieldy when the number of projects exceeds half a dozen.
 
-*Solution:* store the events from hundreds and even thousands of projects over decades inside of a single SQL light database.
-The database when opened in database viewing programs is vulnerable to corruption by sticky mouse cursers dragging values from one cell to another.
-The Emacs package `time-tracker.el` here enables the loading of the information about an event into the database from inside of Emacs to avoid the mouse dragging issue and to avoid contextt switching from other work that one is doing in Emacs.
+**Solution:** Store the events from hundreds and even thousands of projects over decades inside a single SQL light database.
+The database, when opened in database viewing programs, is vulnerable to corruption by sticky mouse cursors dragging values from one cell to another.
+The Emacs package `time-tracker.el` enables loading information about an event into the database from inside Emacs, thereby avoiding the mouse-dragging issue and minimizing context switching from other tasks being worked on in Emacs.
 
 ## Features: 
 
-- many of the fields are pre-populated such as the date and the end time for the last event service as a default start timefor the new event.
-- entry of the project number invokes loading the project name as at the default for the projecting field. This avoids the entry of misspelled project names. Such misspellings can hamper the generation of reports.
+- Many of the fields are pre-populated, such as the date and the end time for the last event service as a default start time for the new event.
+- Entry of the project number invokes loading the project name as the default for the project field. This avoids the entry of misspelled project names. Such misspellings can hamper the generation of reports.
 
 ## Planned features
 
-- The generation of various reports
+- The generation of various reports.
 
 ## Status: very alpha
 
