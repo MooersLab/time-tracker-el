@@ -22,6 +22,17 @@ The Emacs package `time-tracker.el` enables loading information about an event i
 
 ## Status: very alpha
 
+## Planned
+
+```elisp
+(let ((file-path (expand-file-name "~/e30fewpackages/manual-install/time-tracker.el")))
+  (when (file-exists-p file-path)
+    (load-file file-path)
+    (message "Loaded time-tracker-clean.el directly")
+    (global-set-key (kbd "C-c T") 'time-tracker-add-entry)))
+```
+
+
 ## Update history
 
 |Version      | Changes                                                                                                                                                                         | Date                 |
