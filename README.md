@@ -2,10 +2,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# Load events into time tracking database from inside Emacs
+# Load events into a time tracking database from inside Emacs
 
 **Problem address:** Org-mode in Emacs provides a time-logging feature underneath headlines for specific projects. 
-The aggregating of this information across multiple projects is unwieldy when the number of projects exceeds half a dozen.
+The aggregation of this information across multiple projects is unwieldy when the number of projects exceeds half a dozen.
 
 **Solution:** Store the events from hundreds and even thousands of projects over decades inside a single SQL light database.
 The database, when opened in database viewing programs, is vulnerable to corruption by sticky mouse cursors dragging values from one cell to another.
